@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
+group 'com.capitole'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -10,8 +10,11 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    implementation 'io.projectreactor:reactor-core:3.5.4'
+
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'io.projectreactor:reactor-test:3.5.4'
 }
 
 test {

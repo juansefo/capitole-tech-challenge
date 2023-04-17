@@ -1,4 +1,4 @@
 package com.capitole.visibility.vo;
 
-public record SizeId(int value) {
+public record SizeBackSoon(boolean value) {
 }

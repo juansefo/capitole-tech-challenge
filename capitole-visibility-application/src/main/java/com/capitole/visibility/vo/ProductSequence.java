@@ -1,4 +1,5 @@
 package com.capitole.visibility.vo;
 
-public record ProductId(int value) {
+
+public record ProductSequence(int value) {
 }

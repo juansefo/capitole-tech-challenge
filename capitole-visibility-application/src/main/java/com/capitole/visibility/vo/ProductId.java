@@ -1,2 +1,4 @@
-package com.com.capitole.visibility.entity.vo;public class ProductId {
+package com.capitole.visibility.vo;
+
+public record ProductId(int value) {
 }
