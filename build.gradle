@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.capitole'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+task releaseBuild {
+    dependsOn(
+            'prospect-selection-domain:build',
+            'prospect-selection-application:build',
+            'prospect-selection-infra:build'
+    )
+}
+test {
+    useJUnitPlatform()
+}
