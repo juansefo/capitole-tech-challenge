@@ -1,4 +1,4 @@
 package com.capitole.visibility.domain.vo;
 
-public record SizeSpecial(boolean value) {
+public record IsSpecialSize(boolean value) {
 }

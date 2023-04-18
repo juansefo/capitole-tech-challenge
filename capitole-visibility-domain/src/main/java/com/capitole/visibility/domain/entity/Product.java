@@ -4,7 +4,6 @@ import com.capitole.visibility.domain.vo.ProductId;
 import com.capitole.visibility.domain.vo.ProductSequence;
 
 import java.util.Set;
-import java.util.stream.Stream;
 
 public record Product(ProductId productId,
                       ProductSequence productSequence,
@@ -12,12 +11,12 @@ public record Product(ProductId productId,
 
     public boolean specialSize(){
         return size.stream()
-                   .anyMatch(s -> s.sizeSpecial().value());
+                   .anyMatch(s -> s.isSpecialSize().value());
     }
 
     public boolean stockOfNoSpecialSizeProduct(){
         return size.stream()
-                .filter(s -> !s.sizeSpecial().value())
+                .filter(s -> !s.isSpecialSize().value())
                 .anyMatch(Size::inStock);
     }
 
