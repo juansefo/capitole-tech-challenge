@@ -21,6 +21,8 @@ import reactor.util.function.Tuple3;
 
 public class GetProductToShowUseCase {
 
+    private final Logger LOGGER = Logger.getLogger(GetProductToShowUseCase.class.getName());
+
     private final ProductRepository productRepository;
     private final SizeRepository sizeRepository;
     private final StockRepository stockRepository;
@@ -33,9 +35,6 @@ public class GetProductToShowUseCase {
         this.sizeRepository = sizeRepository;
         this.stockRepository = stockRepository;
     }
-
-    Logger LOGGER = Logger.getLogger(GetProductToShowUseCase.class.getName());
-
 
     public Mono<Set<Product>> execute() {
         return Mono.zip(getProducts(), getSize(), getStock())
@@ -64,14 +63,24 @@ public class GetProductToShowUseCase {
     }
 
     private Mono<Set<ProductBasicInformation>> getProducts() {
-        return Mono.fromFuture(productRepository.findAll()).publishOn(Schedulers.boundedElastic());
-    }
-
-    private Mono<List<Stock>> getStock() {
-        return Mono.fromFuture(stockRepository.findAll()).publishOn(Schedulers.boundedElastic());
+        return Mono.fromFuture(productRepository.findAll()).publishOn(Schedulers.boundedElastic())
+                .doOnSuccess(l-> LOGGER.info(String.format("%s products were found", l.size())))
+                .doOnError(error -> LOGGER.info(String.format("Error getting products: %s",
+                                                              error.getMessage())));
     }
 
     private Mono<Set<SizeBasicInformation>> getSize() {
-        return Mono.fromFuture(sizeRepository.findAll()).publishOn(Schedulers.boundedElastic());
+        return Mono.fromFuture(sizeRepository.findAll()).publishOn(Schedulers.boundedElastic())
+                   .doOnSuccess(l-> LOGGER.info(String.format("%s size records were found", l.size())))
+                   .doOnError(error -> LOGGER.info(String.format("Error getting size records: %s",
+                                                                 error.getMessage())));
+
+    }
+
+    private Mono<List<Stock>> getStock() {
+        return Mono.fromFuture(stockRepository.findAll()).publishOn(Schedulers.boundedElastic())
+                   .doOnSuccess(l-> LOGGER.info(String.format("%s stock records were found", l.size())))
+                   .doOnError(error -> LOGGER.info(String.format("Error getting stock records: %s",
+                                                                 error.getMessage())));
     }
 }
