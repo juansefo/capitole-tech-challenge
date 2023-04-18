@@ -2,9 +2,10 @@ package com.capitole.visibility.domain.ports;
 
 import com.capitole.visibility.domain.agregate.SizeBasicInformation;
 
-import java.util.List;
+import java.util.Set;
+import java.util.concurrent.CompletableFuture;
 
 public interface SizeRepository {
 
-    List<SizeBasicInformation> findAll();
+    CompletableFuture<Set<SizeBasicInformation>> findAll();
 }

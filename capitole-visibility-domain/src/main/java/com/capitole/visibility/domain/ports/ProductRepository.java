@@ -1,9 +1,11 @@
 package com.capitole.visibility.domain.ports;
 
 import com.capitole.visibility.domain.agregate.ProductBasicInformation;
-import java.util.List;
+
+import java.util.Set;
+import java.util.concurrent.CompletableFuture;
 
 public interface ProductRepository {
 
-    List<ProductBasicInformation> findAllProduct();
+    CompletableFuture<Set<ProductBasicInformation>> findAll();
 }
