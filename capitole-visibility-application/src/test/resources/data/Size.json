@@ -1,0 +1,240 @@
+[
+  {
+    "id": {
+      "value": "11"
+    },
+    "productId": {
+      "value": "1"
+    },
+    "sizeBackSoon": {
+      "value": "true"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "12"
+    },
+    "productId": {
+      "value": "1"
+    },
+    "sizeBackSoon": {
+      "value": "false"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "13"
+    },
+    "productId": {
+      "value": "1"
+    },
+    "sizeBackSoon": {
+      "value": "true"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "21"
+    },
+    "productId": {
+      "value": "2"
+    },
+    "sizeBackSoon": {
+      "value": "false"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "22"
+    },
+    "productId": {
+      "value": "2"
+    },
+    "sizeBackSoon": {
+      "value": "false"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "23"
+    },
+    "productId": {
+      "value": "2"
+    },
+    "sizeBackSoon": {
+      "value": "true"
+    },
+    "isSpecialSize": {
+      "value": "true"
+    }
+  },
+  {
+    "id": {
+      "value": "31"
+    },
+    "productId": {
+      "value": "3"
+    },
+    "sizeBackSoon": {
+      "value": "true"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "32"
+    },
+    "productId": {
+      "value": "3"
+    },
+    "sizeBackSoon": {
+      "value": "true"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "33"
+    },
+    "productId": {
+      "value": "3"
+    },
+    "sizeBackSoon": {
+      "value": "false"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "41"
+    },
+    "productId": {
+      "value": "4"
+    },
+    "sizeBackSoon": {
+      "value": "false"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "42"
+    },
+    "productId": {
+      "value": "4"
+    },
+    "sizeBackSoon": {
+      "value": "false"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "43"
+    },
+    "productId": {
+      "value": "4"
+    },
+    "sizeBackSoon": {
+      "value": "false"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "44"
+    },
+    "productId": {
+      "value": "4"
+    },
+    "sizeBackSoon": {
+      "value": "true"
+    },
+    "isSpecialSize": {
+      "value": "true"
+    }
+  },
+  {
+    "id": {
+      "value": "51"
+    },
+    "productId": {
+      "value": "5"
+    },
+    "sizeBackSoon": {
+      "value": "true"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "52"
+    },
+    "productId": {
+      "value": "5"
+    },
+    "sizeBackSoon": {
+      "value": "false"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "53"
+    },
+    "productId": {
+      "value": "5"
+    },
+    "sizeBackSoon": {
+      "value": "false"
+    },
+    "isSpecialSize": {
+      "value": "false"
+    }
+  },
+  {
+    "id": {
+      "value": "54"
+    },
+    "productId": {
+      "value": "5"
+    },
+    "sizeBackSoon": {
+      "value": "true"
+    },
+    "isSpecialSize": {
+      "value": "true"
+    }
+  }
+]

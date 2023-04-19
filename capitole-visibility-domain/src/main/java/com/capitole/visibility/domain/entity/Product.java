@@ -1,7 +1,6 @@
 package com.capitole.visibility.domain.entity;
 
 import com.capitole.visibility.domain.agregate.ProductBasicInformation;
-import com.capitole.visibility.domain.agregate.Stock;
 import com.capitole.visibility.domain.vo.ProductId;
 import com.capitole.visibility.domain.vo.ProductSequence;
 

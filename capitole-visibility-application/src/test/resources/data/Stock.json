@@ -1,0 +1,122 @@
+[
+  {
+    "sizeId": {
+      "value": "11"
+    },
+    "stockQuantity": {
+      "value": "0"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "12"
+    },
+    "stockQuantity": {
+      "value": "0"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "13"
+    },
+    "stockQuantity": {
+      "value": "0"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "22"
+    },
+    "stockQuantity": {
+      "value": "0"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "31"
+    },
+    "stockQuantity": {
+      "value": "10"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "32"
+    },
+    "stockQuantity": {
+      "value": "10"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "33"
+    },
+    "stockQuantity": {
+      "value": "10"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "41"
+    },
+    "stockQuantity": {
+      "value": "0"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "42"
+    },
+    "stockQuantity": {
+      "value": "0"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "43"
+    },
+    "stockQuantity": {
+      "value": "0"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "44"
+    },
+    "stockQuantity": {
+      "value": "10"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "51"
+    },
+    "stockQuantity": {
+      "value": "10"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "52"
+    },
+    "stockQuantity": {
+      "value": "10"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "53"
+    },
+    "stockQuantity": {
+      "value": "10"
+    }
+  },
+  {
+    "sizeId": {
+      "value": "54"
+    },
+    "stockQuantity": {
+      "value": "10"
+    }
+  }
+]

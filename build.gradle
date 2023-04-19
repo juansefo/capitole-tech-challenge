@@ -11,9 +11,9 @@ repositories {
 
 task releaseBuild {
     dependsOn(
-            'prospect-selection-domain:build',
-            'prospect-selection-application:build',
-            'prospect-selection-infra:build'
+            'capitole-visibility-domain:build',
+            'capitole-visibility-application:build',
+            'capitole-visibility-infra:build'
     )
 }
 test {
