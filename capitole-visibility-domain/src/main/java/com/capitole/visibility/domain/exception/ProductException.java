@@ -10,4 +10,7 @@ public class ProductException extends GeneralException {
         return new ProductException(ErrorsCode.VS_100.name(), ErrorsCode.VS_100.getMessage());
     }
 
+    public static ProductException productRepositoryError() {
+        return new ProductException(ErrorsCode.VS_103.name(), ErrorsCode.VS_103.getMessage());
+    }
 }

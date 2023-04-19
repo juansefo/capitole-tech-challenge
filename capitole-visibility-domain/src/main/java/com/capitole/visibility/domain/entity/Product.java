@@ -19,9 +19,9 @@ public record Product(ProductId productId,
         );
     }
 
-    public boolean specialSizeCondition(){
+    public boolean calculateStock(){
         return size.stream()
-                   .noneMatch(s -> s.isSpecialSize().value()) || stockOfNoSpecialSizeProduct();
+                   .anyMatch(s -> s.isSpecialSize().value())? stockOfNoSpecialSizeProduct():stockOfNoSpecialSizeProduct();
     }
 
     private boolean stockOfNoSpecialSizeProduct(){

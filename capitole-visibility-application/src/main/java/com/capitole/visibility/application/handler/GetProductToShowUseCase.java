@@ -49,7 +49,7 @@ public class GetProductToShowUseCase {
 
     private Mono<TreeSet<Product>> filterProducts(Stream<Product> products) {
         return Mono.fromCallable(() -> products
-                           .filter(Product::specialSizeCondition)
+                           .filter(Product::calculateStock)
                            .collect(Collectors.toCollection(TreeSet::new)))
                    .doOnError(error -> LOGGER.info(
                            String.format("Error mapping and filtering products: %s",
