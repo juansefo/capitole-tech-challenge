@@ -1,0 +1,42 @@
+[
+  {
+    "id": {
+      "value": "1"
+    },
+    "productSequence": {
+      "value": "10"
+    }
+  },
+  {
+    "id": {
+      "value": "2"
+    },
+    "productSequence": {
+      "value": "7"
+    }
+  },
+  {
+    "id": {
+      "value": "3"
+    },
+    "productSequence": {
+      "value": "15"
+    }
+  },
+  {
+    "id": {
+      "value": "4"
+    },
+    "productSequence": {
+      "value": "13"
+    }
+  },
+  {
+    "id": {
+      "value": "5"
+    },
+    "productSequence": {
+      "value": "6"
+    }
+  }
+]
