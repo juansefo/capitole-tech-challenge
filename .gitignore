@@ -1,0 +1,21 @@
+# Gradle specific files
+.gradle/
+build/
+
+# IDE files
+*.iml
+.idea/
+*.ipr
+*.iws
+*.log
+*.bak
+.idea_modules/
+
+# Compiled Java class files
+*.class
+
+# Maven specific files
+target/
+
+# Compiled Gradle build scripts
+buildSrc/build/

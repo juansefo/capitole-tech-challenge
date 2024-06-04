@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.capitole'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+task releaseBuild {
+    dependsOn(
+            'capitole-visibility-domain:build',
+            'capitole-visibility-application:build',
+            'capitole-visibility-infra:build'
+    )
+}
+test {
+    useJUnitPlatform()
+}

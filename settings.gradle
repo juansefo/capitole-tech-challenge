@@ -1,0 +1,5 @@
+rootProject.name = 'capitole'
+include 'capitole-visibility-domain'
+include 'capitole-visibility-application'
+include 'capitole-visibility-infra'
+
